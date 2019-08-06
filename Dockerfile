@@ -1,4 +1,5 @@
-FROM node:slim
+FROM node:dubnium-slim
+# ^ stable LTS version
 
 ENV PORT 3000
 
